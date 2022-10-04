@@ -1,0 +1,29 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "\"CRUD API WITH AUTHENTICATION\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TASK"
+  ],
+  "author": "\"ABBAS ALI\"",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.895.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^17.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "randomstring": "^1.2.2",
+    "uniqid": "^5.4.0"
+  }
+}
