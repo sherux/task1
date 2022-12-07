@@ -31,16 +31,3 @@ exports.uploadS3 = multer({
   }),
 });
 
-//-----------------------------------IMGES UPLOADED FOLDER------------------
-// const filestorage = multer.diskStorage({
-//   destination: (req, file, cb) => {
-//     cb(null, "./uploads");
-//   },
-
-//   filename: (req, file, cb) => {
-//     cb(null, Date.now() + "--" + file.originalname);
-//   },
-// });
-// const uploads = multer({ storage: filestorage });
-
-// module.exports = uploadS3;
